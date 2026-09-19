@@ -1,0 +1,1 @@
+import{a7 as s,a8 as c}from"./InstrumentHost-BchPW7hU.js";import{p as a}from"./python-check-BlcDy73i.js";function t(e){if(e===void 0)return null;const o=s(e);if(o?.codeMatches)return{code:o.code,workspace:o.workspace,version:o.version,derived:!1};const r=o?o.code:e;return{code:r,workspace:a(r).workspace,version:o?.version??c,derived:!0}}export{t as b};
